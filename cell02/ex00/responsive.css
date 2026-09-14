@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* responsive without JavaScript */
+}
+
+td {
+    width: 50%;
+    border: 1px solid #777;
+    padding: 12px;
+    word-break: break-word;
+}
+
+.first { background: #c9cc7f; }
+.second { background: #f3b9a3; }

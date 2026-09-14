@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - jQuery</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <form id="calculator">
+        <input id="left" type="text" aria-label="Left number">
+        <select id="operator" aria-label="Operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input id="right" type="text" aria-label="Right number">
+        <input type="submit" value="Try me!">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="calc.js"></script>
+</body>
+</html>

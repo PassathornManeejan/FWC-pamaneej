@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+}
+
+.card {
+    width: 340px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.card h1 {
+    margin: 0;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* no visible table border */
+}
+
+td {
+    padding: 8px;
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.login {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    color: #666;
+}
+
+.socials img {
+    width: 28px;
+    height: 28px;
+    margin: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: 0;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}

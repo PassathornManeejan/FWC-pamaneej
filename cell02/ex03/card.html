@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User profile card</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="card">
+        <h1>User Profile</h1>
+
+        <!-- Invisible table is used to align the profile information. -->
+        <table>
+            <tr>
+                <td>
+                    <img class="profile"
+                         src="https://api.dicebear.com/9.x/personas/svg?seed=student"
+                         alt="Profile picture">
+                </td>
+            </tr>
+            <tr><td class="login">login</td></tr>
+            <tr><td class="description">Computer Science Student</td></tr>
+            <tr>
+                <td class="socials">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+                </td>
+            </tr>
+        </table>
+
+        <button type="button">Contact</button>
+    </div>
+</body>
+</html>

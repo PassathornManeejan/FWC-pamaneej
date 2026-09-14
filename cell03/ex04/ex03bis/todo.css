@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: start center;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+main {
+    width: min(560px, 92vw);
+    margin-top: 50px;
+}
+
+#new {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#ft_list > div {
+    margin-top: 8px;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
