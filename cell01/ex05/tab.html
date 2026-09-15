@@ -2,15 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Two-cell table</title>
+    <title>Two-cell Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 50%;
+            height: 120px;
+            border: 1px solid #777;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .first-cell {
+            background-color: #c9cc7f;
+        }
+
+        .second-cell {
+            background-color: #f3b9a3;
+        }
+    </style>
 </head>
+
 <body>
-    <table style="width: 100%; border-collapse: collapse;">
+
+    <table>
         <tr>
-            <!-- Each cell has its own text and color. -->
-            <td style="background: #c9cc7f; height: 120px; border: 1px solid #777;">First cell</td>
-            <td style="background: #f3b9a3; height: 120px; border: 1px solid #777;">Second cell</td>
+            <td class="first-cell">First cell</td>
+            <td class="second-cell">Second cell</td>
         </tr>
     </table>
+
 </body>
 </html>
