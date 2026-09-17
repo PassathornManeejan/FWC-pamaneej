@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasathorn Maneejan - Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="tech-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-pastel tech-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand tech-brand" href="index.html"><i class="bi bi-house-heart-fill"></i> Home</a>
+
+            <button class="navbar-toggler border-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link tech-nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link tech-nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link tech-nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile / About -->
+    <section id="about" class="container py-5">
+        <div class="pastel-card tech-profile-card p-4 p-md-5">
+            <div class="row align-items-center g-4">
+
+                <div class="col-md-4 text-center">
+                    <img src="images/Poom.png"
+                         alt="Pasathorn Maneejan"
+                         class="tech-profile-img">
+                </div>
+
+                <div class="col-md-8">
+                    <span class="badge-mint">Computer Science @ KMITL</span>
+
+                    <h1 class="tech-name mt-3 mb-1">Pasathorn Maneejan</h1>
+                    <p class="tech-role mb-3">Data · Cloud · AI · Software</p>
+
+                    <p class="tech-muted mb-3">
+                        Computer Science student interested in building practical systems
+                        using software, data engineering, cloud computing and artificial intelligence.
+                    </p>
+
+                    <!-- Education moved into Profile -->
+                    <p class="mb-3">
+                        <i class="bi bi-mortarboard-fill me-2"></i>
+                        <strong>Education:</strong>
+                        B.Sc. Computer Science, KMITL (2023 - Present)
+                    </p>
+
+                    <!-- Main skills moved into Profile -->
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">GCP</span>
+                        <span class="tech-badge">BigQuery</span>
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">TensorFlow</span>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#projects" class="btn btn-mint tech-main-btn">
+                            <i class="bi bi-grid me-2"></i>View Projects
+                        </a>
+
+                        <a href="https://github.com/Passathorn-26M"
+                           target="_blank"
+                           class="btn tech-outline-btn">
+                            <i class="bi bi-github me-2"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="tech-section-alt py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="section-title tech-section-heading">Projects</h2>
+                <p class="tech-muted mt-3">Some projects from my Computer Science studies.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="pastel-card tech-project-card h-100 p-4">
+                        <i class="bi bi-airplane-fill project-icon"></i>
+                        <h4>Flight Status Analytics Platform</h4>
+                        <p class="tech-muted">
+                            Cloud-based flight analytics platform with ELT pipelines,
+                            BigQuery and REST APIs.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">BigQuery</span>
+                            <span class="tech-badge">GCP</span>
+                            <span class="tech-badge">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="pastel-card tech-project-card h-100 p-4">
+                        <i class="bi bi-fingerprint project-icon"></i>
+                        <h4>Signature Authentication System</h4>
+                        <p class="tech-muted">
+                            Siamese CNN model for handwritten signature verification
+                            and forged-signature classification.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">TensorFlow</span>
+                            <span class="tech-badge">CNN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="pastel-card tech-project-card h-100 p-4">
+                        <i class="bi bi-database-fill project-icon"></i>
+                        <h4>Maritime Logistics Data Platform</h4>
+                        <p class="tech-muted">
+                            Logistics analytics system using relational databases,
+                            REST APIs and data warehouse design.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="tech-badge">Oracle DB</span>
+                            <span class="tech-badge">SQL</span>
+                            <span class="tech-badge">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="pastel-card tech-project-card h-100 p-4">
+                        <i class="bi bi-cloud-check-fill project-icon"></i>
+                        <h4>QuickSciSeat</h4>
+                        <p class="tech-muted">
+                            Cloud-deployed reservation system using AWS
+                            and GitHub Actions for deployment automation.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">EC2</span>
+                            <span class="tech-badge">RDS</span>
+                            <span class="tech-badge">GitHub Actions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="pastel-card tech-project-card p-4">
+                        <i class="bi bi-bar-chart-line-fill project-icon"></i>
+                        <h4>AOT Flight Growth & Passenger Analytics Dashboard</h4>
+                        <p class="tech-muted">
+                            Dashboard for airport traffic trends, passenger growth
+                            and flight distribution analysis.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="tech-badge">Power BI</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Excel</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container py-5">
+        <div class="pastel-card tech-contact p-4 p-md-5">
+            <div class="text-center mb-4">
+                <h2 class="section-title tech-section-heading">Contact</h2>
+                <p class="tech-muted mt-3">Feel free to contact me.</p>
+            </div>
+
+            <div class="row g-3 text-center">
+
+                <div class="col-md-6 col-lg-3">
+                    <a href="mailto:passa2646@gmail.com" class="tech-contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>Email</span>
+                        <small>passa2646@gmail.com</small>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <a href="tel:+66638146146" class="tech-contact-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>Phone</span>
+                        <small>063-814-6146</small>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://github.com/Passathorn-26M"
+                       target="_blank"
+                       class="tech-contact-item">
+                        <i class="bi bi-github"></i>
+                        <span>GitHub</span>
+                        <small>Passathorn-26M</small>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.instagram.com/ppxom.twsx/"
+                       target="_blank"
+                       class="tech-contact-item">
+                        <i class="bi bi-instagram"></i>
+                        <span>Instagram</span>
+                        <small>@ppxom.twsx</small>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-4 tech-location">
+                <i class="bi bi-geo-alt-fill me-2"></i>Samut Sakhon, Thailand
+            </div>
+        </div>
+    </section>
+
+    <footer class="tech-footer text-center py-3">
+        &copy; 2026 Pasathorn Maneejan
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

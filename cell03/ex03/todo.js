@@ -30,7 +30,7 @@ function createTodoElement(text) {
     item.addEventListener("click", () => {
         if (!confirm("Do you want to remove this TO DO?")) return;
 
-        item.remove(); // permanently remove it from the DOM
+        item.remove(); 
         const todos = [...list.children].map((child) => child.textContent);
         saveTodos(todos);
     });
@@ -48,7 +48,7 @@ newButton.addEventListener("click", () => {
     if (text === null || text.trim() === "") return;
 
     const item = createTodoElement(text.trim());
-    list.prepend(item); // newest item goes at the top
+    list.prepend(item); 
 
     const todos = [...list.children].map((child) => child.textContent);
     saveTodos(todos);

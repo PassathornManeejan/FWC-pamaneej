@@ -7,7 +7,6 @@ form.addEventListener("submit", (event) => {
     const rightText = document.getElementById("right").value.trim();
     const operator = document.getElementById("operator").value;
 
-    // Only non-negative integers are accepted.
     if (!/^\d+$/.test(leftText) || !/^\d+$/.test(rightText)) {
         alert("Error :(");
         return;
@@ -33,7 +32,6 @@ form.addEventListener("submit", (event) => {
     console.log(result);
 });
 
-// The subject asks for this reminder every 30 seconds.
 setInterval(() => {
     alert("Please, use me...");
 }, 30000);
